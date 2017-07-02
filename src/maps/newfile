@@ -1,0 +1,28 @@
+waittime - caka na konci schedule...potom vozidlo zmizne 
+block node - nekonecny waittime 
+waittime - default 2
+
+5 typov rychlosti - 1,2,3,4,6 jednotiek za sek.  -- ok
+dlzka uzla - 6 jednotiek
+dlzka vozidla - 6 jednotiek
+vozidlo zmizne, ak nema dost miesta pre window
+
+vychodiskovy bod
+
+data flow diagram
+vyvojovy diagram 
+testovacie scenare
+zhodnotenie dolezite - vsetko zhrnute -> co sa vylepsilo oproti existujucemu
+
+technicka dokumentacia zdojaky          -> ok
+test -> hlavny scenar + jeden naviac    -> ok
+
+
+zatial najdene chyby
+- pri vyhladavani trasy sa skrizilo s vozidlom uhybajucim sa na drahe  -> ok
+- vytvorilo mi trasu do vozidla uz umiestneneho v node -> ok
+- vizualizacia odchadzania z bodu po vytvoreni ulohy
+- zle to nahazuje rezervovane okna po vyhladani cesty  -> ok
+
+-farba vozidiel -> ok
+-vaha hran, oznacenie -> ok
